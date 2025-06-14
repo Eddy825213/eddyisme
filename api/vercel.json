@@ -1,9 +1,9 @@
 {
   "functions": {
-    "music/*.php": {
+    "../music/*.php": {
       "runtime": "vercel-php@0.7.3"
     },
-    "profile/*.php": {
+    "../profile/*.php": {
       "runtime": "vercel-php@0.7.3"
     }
   }
