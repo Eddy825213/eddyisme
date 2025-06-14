@@ -1,13 +1,8 @@
 {
   "functions": {
     "api/music/*.php": {
-      "runtime": "vercel-php@0.5.1"
+      "runtime": "vercel-php@0.5.1",
+      "includeFiles": "../music/*.php"
     }
-  },
-  "routes": [
-    {
-      "src": "/music/(.*)",
-      "dest": "/api/music/$1.php"  // Giả lập đường dẫn trong /api/
-    }
-  ]
+  }
 }
